@@ -1,9 +1,9 @@
 module.exports = {
   twitKeys: twitterKeys = {
-    consumer_key: 'zYeYKgwJejFou2wDWLmmN18ae',
-    consumer_secret: '0P1l7NXUE5pFYx7YhJ8o05ZKvNG313LinlNro9VXcdTpOnsRYa',
-    access_token_key: '304919828-5mTW7Z4VjwVUp5ea2DBwQW6ZE0ddaXmLT54G1Yw2',
-    access_token_secret: 'rP3jR7Ovw3XTw8nTa4aC9Npn0C3P4bQ0TUw6Qcl4z6T5o',
+    consumer_key: 'ExyGEvHoWvH51AIRMncwb3LsQ',
+    consumer_secret: 'ggmhrbBpXPIeXvoI1XqVGItaQkyEvTnODIrswUidSyh67qgku3',
+    access_token_key: '926527246860300288-RTm81idMItHnGuLy6YT6ANRWZq7jadT',
+    access_token_secret: '2fqRx14fXJ5fKMXUxtr2qg7AkVkyOJ8zyV5bLNMaWajou',
   },
   spotKeys: spotifyKeys = {
     id: "5ec67e9b1a42475cb0cac922a45dbfaf",

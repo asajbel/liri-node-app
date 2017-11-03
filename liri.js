@@ -71,7 +71,7 @@ function myTweets(name = 'jeffgerstmann') {
       }
 
     } else {
-      return write('Error occurred: ' + error);
+      return write('Error occurred: ' + JSON.stringify(error));
     }
   });
 }
@@ -79,7 +79,7 @@ function myTweets(name = 'jeffgerstmann') {
 function spotifyThis(song = "Bohemian+Rhapsody") {
   spot.search({ type: 'track', query: song, limit: 1 }, function(err, data) {
     if (err) {
-      return write('Error occurred: ' + err);
+      return write('Error occurred: ' + JSON.stringify(err));
     }
     // write("items============================");
     // write(data.tracks.items[0]);
