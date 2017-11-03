@@ -5,9 +5,7 @@ Runs on node.
 ## Installation
 
 ```
-npm install request
-npm install twitter
-npm install --save node-spotify-api
+npm install
 ```
 
 ## Use
